@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Gun : MonoBehaviour
+public class SpawnManager : MonoBehaviour
 {
-    public float BulletSpeed = 7;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +13,6 @@ public class Gun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.up * BulletSpeed * Time.deltaTime);
+        
     }
 }
