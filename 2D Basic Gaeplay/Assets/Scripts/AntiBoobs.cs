@@ -15,6 +15,7 @@ public class AntiBoobs : MonoBehaviour
         }
         if(transform.position.y < lowerBound)
         {
+            Debug.Log("game over an enemt got past you.");
             Destroy(this.gameObject);
         }
     }
